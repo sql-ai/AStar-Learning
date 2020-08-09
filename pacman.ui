@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1900</width>
+    <height>1300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1800</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1900</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+     <horstretch>10</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="meneChapter1">
+    <property name="title">
+     <string>Lesson 1</string>
+    </property>
+    <addaction name="actionLesson1"/>
+    <addaction name="actionLesson2"/>
+    <addaction name="actionConstraint_Satisfaction_II"/>
+   </widget>
+   <widget class="QMenu" name="menuChapter2">
+    <property name="title">
+     <string>Lesson 2</string>
+    </property>
+    <addaction name="actionLesson_1"/>
+    <addaction name="actionLesson_2"/>
+    <addaction name="actionAdversarial_Search"/>
+   </widget>
+   <widget class="QMenu" name="menuChapter_3">
+    <property name="font">
+     <font>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Lesson 3</string>
+    </property>
+    <addaction name="actionLesson_3"/>
+    <addaction name="actionLesson_4"/>
+    <addaction name="actionAdverserial_Search"/>
+   </widget>
+   <widget class="QMenu" name="menuLesson_4">
+    <property name="title">
+     <string>Lesson 4</string>
+    </property>
+    <addaction name="actionReinforcement_Learning_I"/>
+    <addaction name="actionReinforcement_Learning_II"/>
+    <addaction name="actionMarkov_Models"/>
+   </widget>
+   <widget class="QMenu" name="menuLesson_5">
+    <property name="title">
+     <string>Lesson 5</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLesson_6">
+    <property name="title">
+     <string>Lesson 6</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLesson_7">
+    <property name="title">
+     <string>Lesson 7</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLesson_8">
+    <property name="title">
+     <string>Lesson 8</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLesson_9">
+    <property name="title">
+     <string>Lesson 9</string>
+    </property>
+   </widget>
+   <addaction name="meneChapter1"/>
+   <addaction name="menuChapter2"/>
+   <addaction name="menuChapter_3"/>
+   <addaction name="menuLesson_4"/>
+   <addaction name="menuLesson_5"/>
+   <addaction name="menuLesson_6"/>
+   <addaction name="menuLesson_7"/>
+   <addaction name="menuLesson_8"/>
+   <addaction name="menuLesson_9"/>
+  </widget>
+  <action name="actionLesson1">
+   <property name="text">
+    <string>Introduction</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionLesson2">
+   <property name="text">
+    <string>Constraint Satisfaction I</string>
+   </property>
+  </action>
+  <action name="actionLesson_1">
+   <property name="text">
+    <string>Uninformed Search</string>
+   </property>
+  </action>
+  <action name="actionLesson_2">
+   <property name="text">
+    <string>Informed Search</string>
+   </property>
+  </action>
+  <action name="actionLesson_3">
+   <property name="text">
+    <string>Expectimax and Utilities</string>
+   </property>
+  </action>
+  <action name="actionLesson_4">
+   <property name="text">
+    <string>Markov Decision Processes I</string>
+   </property>
+  </action>
+  <action name="actionAdverserial_Search">
+   <property name="text">
+    <string>Markov Decision Processes II</string>
+   </property>
+  </action>
+  <action name="actionConstraint_Satisfaction_II">
+   <property name="text">
+    <string>Constraint Satisfaction II</string>
+   </property>
+  </action>
+  <action name="actionAdversarial_Search">
+   <property name="text">
+    <string>Adversarial Search</string>
+   </property>
+  </action>
+  <action name="actionReinforcement_Learning_I">
+   <property name="text">
+    <string>Reinforcement Learning I</string>
+   </property>
+  </action>
+  <action name="actionReinforcement_Learning_II">
+   <property name="text">
+    <string>Reinforcement Learning II</string>
+   </property>
+  </action>
+  <action name="actionMarkov_Models">
+   <property name="text">
+    <string>Markov Models</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
